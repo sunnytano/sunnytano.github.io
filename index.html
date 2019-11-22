@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <!--
-	Astral by HTML5 UP
+	Hyperspace by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
@@ -14,102 +14,155 @@
 	</head>
 	<body class="is-preload">
 
-		<!-- Wrapper-->
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">Welcome</a></li>
+							<li><a href="#one">Projects</a></li>
+							<li><a href="#three">Get in touch</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+		<!-- Wrapper -->
 			<div id="wrapper">
 
-				<!-- Nav -->
-					<nav id="nav">
-						<a href="#" class="icon solid fa-home"><span>Home</span></a>
-						<a href="#work" class="icon solid fa-folder"><span>Work</span></a>
-						<a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
-						<!-- <a href="https://twitter.com/ajlkn" class="icon brands fa-twitter"><span>Twitter</span></a> -->
-					</nav>
-
-				<!-- Main -->
-					<div id="main">
-
-						<!-- Me -->
-							<article id="home" class="panel intro">
-								<header>
-									<h1>Susan Tan</h1>
-									<p>Full Stack Software Engineer</p>
-								</header>
-								<a href="#work" class="jumplink pic">
-									<span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
-									<img src="images/susan.jpg" alt="" />
-								</a>
-							</article>
-
-						<!-- Work -->
-							<article id="work" class="panel">
-								<header>
-									<h2>Work</h2>
-								</header>
-								<p>
-									Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit.
-									Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-									luctus elit eget interdum.
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<center></center><h1>Susan Tan</h1></center>
+							<p>Full Stack Web Developer from Brooklyn, New York.
+									I have a passion for creating innovative 
+									web applications. I have background in non-profit organizations, 
+									museums and ed tech. My past work experience includes creating a Shopify e-commerce site and building digital math lessons.
+									 I also have strong client-facing skills and a passion for learning new technologies. 
 								</p>
+							<div style="text-align: center">
+									<img src="images/susan.jpg" alt="" width="20%" height="20%"/>
+							</div>
+							<ul class="actions">
+								<!-- <li><a href="#one" class="button scrolly">Learn more</a></li> -->
+							</ul>
+						</div>
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style2 spotlights">
+						<section>
+							<a href="#" class="image"><img src="images/WanderTimes.png" alt="" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>The Wander Times</h2>
+									<p>Full Stack news app creating using the News API, React, Ruby On Rails and Semantic UI.</p>
+									<ul class="actions">
+										<li><a href="https://github.com/sunnytano/wander_times" class="button">See Project</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/cityScape.png" alt="" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Cityscape</h2>
+									<p>A booking web app where users can search and book a listing in New York City.</p>
+									<ul class="actions">
+										<li><a href="https://github.com/sunnytano/Cityscape-frontend" class="button">See Project</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/bubbleImage1.png" alt="" data-position="top center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>The Bubble Tea App</h2>
+									<p>Web App created with React and Ruby on Rails. Users can toggle login/logout. 
+										Users can sort, filter and search based on user input. 
+									</p>
+									<ul class="actions">
+										<li><a href="https://github.com/sunnytano/Bubbletea-Ecommerce-Frontend" class="button">See Project</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+					</section>
+
+				<!-- Two -->
+					<section id="two" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>Skills</h2>
+							<p>HTML, CSS, JAVASCRIPT, REACT, RUBY ON RAILS, POSTGRES </p>
+						</div>
+					</section>
+
+				<!-- Three -->
+					<section id="three" class="wrapper style1 fade-up">
+						<div class="inner">
+							<h2>Get in touch</h2>
+							<div class="split style1">
 								<section>
-									<div class="row">
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic01.jpg" alt=""></a>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="name">Name</label>
+												<input type="text" name="name" id="name" />
+											</div>
+											<div class="field half">
+												<label for="email">Email</label>
+												<input type="text" name="email" id="email" />
+											</div>
+											<div class="field">
+												<label for="message">Message</label>
+												<textarea name="message" id="message" rows="5"></textarea>
+											</div>
 										</div>
-									</div>
-									<div class="row">
-											<div class="col-4 col-6-medium col-12-small">
-													<a href="#" class="image fit"><img src="images/pic02.jpg" alt=""></a>
-									</div>
-									</div>
-									<div class="row">
-											<div class="col-4 col-6-medium col-12-small">
-													<a href="#" class="image fit"><img src="images/pic03.jpg" alt=""></a>
-									</div>
-									</div>
+										<ul class="actions">
+											<li><a href="" class="button submit">Send Message</a></li>
+										</ul>
+									</form>
 								</section>
-							</article>
-
-						<!-- Contact -->
-							<article id="contact" class="panel">
-								<header>
-									<h2>Contact Me</h2>
-								</header>
-								<form action="#" method="post">
-									<div>
-										<div class="row">
-											<div class="col-6 col-12-medium">
-												<input type="text" name="name" placeholder="Name" />
-											</div>
-											<div class="col-6 col-12-medium">
-												<input type="text" name="email" placeholder="Email" />
-											</div>
-											<div class="col-12">
-												<input type="text" name="subject" placeholder="Subject" />
-											</div>
-											<div class="col-12">
-												<textarea name="message" placeholder="Message" rows="6"></textarea>
-											</div>
-											<div class="col-12">
-												<input type="submit" value="Send Message" />
-											</div>
-										</div>
-									</div>
-								</form>
-							</article>
-
-					</div>
-
-				<!-- Footer -->
-					<div id="footer">
-						<ul class="copyright">
-							<li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</div>
+								<section>
+									<ul class="contact">
+										<li>
+											<h3>Address</h3>
+											<span>New York City based Full Stack Engineer</span>
+										</li>
+										<li>
+											<h3>Email</h3>
+											<a href="#">ssusantan9@gmail.com</a>
+										</li>
+										<li>
+											<h3>Social</h3>
+											<ul class="icons">
+												<li><a href="https://github.com/sunnytano" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+												<li><a href="https://www.linkedin.com/in/susantan8/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+											</ul>
+										</li>
+									</ul>
+								</section>
+							</div>
+						</div>
+					</section>
 
 			</div>
 
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
